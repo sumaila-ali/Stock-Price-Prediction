@@ -38,8 +38,8 @@ import customtkinter as ctk
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # ====== GOOGLE SHEET SETUP ======
-CREDENTIALS_FILE = 'LSTM Model Use-Case/stock-prediction-app-459317-075704cd682e.json' # needs to be updated if you have your own data source.
-SHEET_URL = 'https://docs.google.com/spreadsheets/d/1dsVEvP0KD-6E86Etg8166Wlt0NEZvW0IwBPqaNAq8OY/edit?gid=0#gid=0'  # Should be replaced if you are using your own data source
+CREDENTIALS_FILE = '' # needs to be updated if you have your own data source.
+SHEET_URL = ''  # Should be replaced if you are using your own data source
 HELPER_SHEET = 'Helper'
 DATA_SOURCE_SHEET = 'Data Source'
 
